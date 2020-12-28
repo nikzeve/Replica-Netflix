@@ -35,22 +35,285 @@
 
         <!-- MAIN -->
         <main>
-            <div class="no-results">
-                <h2>La ricerca non ha prodotto alcuni risulato..</h2>
+            <div class="no-results none">
+                <h2>La ricerca non ha prodotto alcun risultato...</h2>
             </div>
 
-            <div class="film">
+            <div class="film none">
                 <Span class="type films">Film</Span>
                 <div class="film-wrapper"></div>
             </div>
 
-            <div class="tv-shows">
+            <div class="tv-shows none">
                 <Span class='type shows'>Serie Tv</Span>
                 <div class="shows-wrapper"></div>
+            </div>
+
+            <div class="film-home">
+
+                <div class="entry">
+                    <div class="img-wrapper">
+                        <img class='copertina' src="https://play-lh.googleusercontent.com/RWMin5ieP5SuyEgPScSS2D9q6lxJEMVGU02XTCUAfqwUz7xij-N6vuVTzFZRlP1gKoE9" alt="">
+                    </div>
+                    <div class="entry-hover">
+                        <p value='{{title}}'><span>Titolo: </span>{{title}}</p>
+                        <p class='original' value='{{original_title}}'><span>Titolo originale: </span>{{original_title}}</p>
+                        <p class='lingua' value='{{language}}'><span>Lingua originale: </span>{{{language}}}</p>
+                        <p><span>Tipologia:</span>{{tipo}}</p>
+                        <p class="voto" value='{{vote}}'><span>Voto medio: </span>{{{vote}}}</p>
+                        <p class="generi">{{lista_generi}}</p>
+                        <span> Cast: </span>
+                        <p class='cast'></p>
+                        <span class='overview'>Overview:</span>
+                        <p class='overview'>{{riassunto}}</p>
+                    </div>
+                </div>
+
+                <div class="entry">
+                    <div class="img-wrapper">
+                        <img class='copertina' src="https://play-lh.googleusercontent.com/iiz3nqXrqeMShg2BEOa5N25VhBCgrVUUTSimN0WRVuh9VgnNZyOLvbcRhlTxyE5zb_OXlQ=w400-h600" alt="">
+                    </div>
+                    <div class="entry-hover">
+                        <p value='{{title}}'><span>Titolo: </span>{{title}}</p>
+                        <p class='original' value='{{original_title}}'><span>Titolo originale: </span>{{original_title}}</p>
+                        <p class='lingua' value='{{language}}'><span>Lingua originale: </span>{{{language}}}</p>
+                        <p><span>Tipologia:</span>{{tipo}}</p>
+                        <p class="voto" value='{{vote}}'><span>Voto medio: </span>{{{vote}}}</p>
+                        <p class="generi">{{lista_generi}}</p>
+                        <span> Cast: </span>
+                        <p class='cast'></p>
+                        <span class='overview'>Overview:</span>
+                        <p class='overview'>{{riassunto}}</p>
+                    </div>
+                </div>
+
+                <div class="entry">
+                    <div class="img-wrapper">
+                        <img class='copertina' src="https://play-lh.googleusercontent.com/9e6Q9eZqKy-aSyvsHMUCIHUK20YPhomucsxxPhrwaSzYH-Iiq7yvUXOwdw1cY8SHdT8=w400-h600" alt="">
+                    </div>
+                    <div class="entry-hover">
+                        <p value='{{title}}'><span>Titolo: </span>{{title}}</p>
+                        <p class='original' value='{{original_title}}'><span>Titolo originale: </span>{{original_title}}</p>
+                        <p class='lingua' value='{{language}}'><span>Lingua originale: </span>{{{language}}}</p>
+                        <p><span>Tipologia:</span>{{tipo}}</p>
+                        <p class="voto" value='{{vote}}'><span>Voto medio: </span>{{{vote}}}</p>
+                        <p class="generi">{{lista_generi}}</p>
+                        <span> Cast: </span>
+                        <p class='cast'></p>
+                        <span class='overview'>Overview:</span>
+                        <p class='overview'>{{riassunto}}</p>
+                    </div>
+                </div>
+
+                <div class="entry">
+                    <div class="img-wrapper">
+                        <img class='copertina' src="https://static-back.fander.tv/mc/w900/data/pic/37/4abe42afb5f145caba5ab533480464f4ddefc9.jpg" alt="">
+                    </div>
+                    <div class="entry-hover">
+                        <p value='{{title}}'><span>Titolo: </span>{{title}}</p>
+                        <p class='original' value='{{original_title}}'><span>Titolo originale: </span>{{original_title}}</p>
+                        <p class='lingua' value='{{language}}'><span>Lingua originale: </span>{{{language}}}</p>
+                        <p><span>Tipologia:</span>{{tipo}}</p>
+                        <p class="voto" value='{{vote}}'><span>Voto medio: </span>{{{vote}}}</p>
+                        <p class="generi">{{lista_generi}}</p>
+                        <span> Cast: </span>
+                        <p class='cast'></p>
+                        <span class='overview'>Overview:</span>
+                        <p class='overview'>{{riassunto}}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="film-home">
+
+                <div class="entry">
+                    <div class="img-wrapper">
+                        <img class='copertina' src="https://play-lh.googleusercontent.com/RWMin5ieP5SuyEgPScSS2D9q6lxJEMVGU02XTCUAfqwUz7xij-N6vuVTzFZRlP1gKoE9" alt="">
+                    </div>
+                    <div class="entry-hover">
+                        <p value='{{title}}'><span>Titolo: </span>{{title}}</p>
+                        <p class='original' value='{{original_title}}'><span>Titolo originale: </span>{{original_title}}</p>
+                        <p class='lingua' value='{{language}}'><span>Lingua originale: </span>{{{language}}}</p>
+                        <p><span>Tipologia:</span>{{tipo}}</p>
+                        <p class="voto" value='{{vote}}'><span>Voto medio: </span>{{{vote}}}</p>
+                        <p class="generi">{{lista_generi}}</p>
+                        <span> Cast: </span>
+                        <p class='cast'></p>
+                        <span class='overview'>Overview:</span>
+                        <p class='overview'>{{riassunto}}</p>
+                    </div>
+                </div>
+
+                <div class="entry">
+                    <div class="img-wrapper">
+                        <img class='copertina' src="https://play-lh.googleusercontent.com/iiz3nqXrqeMShg2BEOa5N25VhBCgrVUUTSimN0WRVuh9VgnNZyOLvbcRhlTxyE5zb_OXlQ=w400-h600" alt="">
+                    </div>
+                    <div class="entry-hover">
+                        <p value='{{title}}'><span>Titolo: </span>{{title}}</p>
+                        <p class='original' value='{{original_title}}'><span>Titolo originale: </span>{{original_title}}</p>
+                        <p class='lingua' value='{{language}}'><span>Lingua originale: </span>{{{language}}}</p>
+                        <p><span>Tipologia:</span>{{tipo}}</p>
+                        <p class="voto" value='{{vote}}'><span>Voto medio: </span>{{{vote}}}</p>
+                        <p class="generi">{{lista_generi}}</p>
+                        <span> Cast: </span>
+                        <p class='cast'></p>
+                        <span class='overview'>Overview:</span>
+                        <p class='overview'>{{riassunto}}</p>
+                    </div>
+                </div>
+
+                <div class="entry">
+                    <div class="img-wrapper">
+                        <img class='copertina' src="https://play-lh.googleusercontent.com/9e6Q9eZqKy-aSyvsHMUCIHUK20YPhomucsxxPhrwaSzYH-Iiq7yvUXOwdw1cY8SHdT8=w400-h600" alt="">
+                    </div>
+                    <div class="entry-hover">
+                        <p value='{{title}}'><span>Titolo: </span>{{title}}</p>
+                        <p class='original' value='{{original_title}}'><span>Titolo originale: </span>{{original_title}}</p>
+                        <p class='lingua' value='{{language}}'><span>Lingua originale: </span>{{{language}}}</p>
+                        <p><span>Tipologia:</span>{{tipo}}</p>
+                        <p class="voto" value='{{vote}}'><span>Voto medio: </span>{{{vote}}}</p>
+                        <p class="generi">{{lista_generi}}</p>
+                        <span> Cast: </span>
+                        <p class='cast'></p>
+                        <span class='overview'>Overview:</span>
+                        <p class='overview'>{{riassunto}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="film-home">
+
+                <div class="entry">
+                    <div class="img-wrapper">
+                        <img class='copertina' src="https://play-lh.googleusercontent.com/RWMin5ieP5SuyEgPScSS2D9q6lxJEMVGU02XTCUAfqwUz7xij-N6vuVTzFZRlP1gKoE9" alt="">
+                    </div>
+                    <div class="entry-hover">
+                        <p value='{{title}}'><span>Titolo: </span>{{title}}</p>
+                        <p class='original' value='{{original_title}}'><span>Titolo originale: </span>{{original_title}}</p>
+                        <p class='lingua' value='{{language}}'><span>Lingua originale: </span>{{{language}}}</p>
+                        <p><span>Tipologia:</span>{{tipo}}</p>
+                        <p class="voto" value='{{vote}}'><span>Voto medio: </span>{{{vote}}}</p>
+                        <p class="generi">{{lista_generi}}</p>
+                        <span> Cast: </span>
+                        <p class='cast'></p>
+                        <span class='overview'>Overview:</span>
+                        <p class='overview'>{{riassunto}}</p>
+                    </div>
+                </div>
+
+                <div class="entry">
+                    <div class="img-wrapper">
+                        <img class='copertina' src="https://play-lh.googleusercontent.com/iiz3nqXrqeMShg2BEOa5N25VhBCgrVUUTSimN0WRVuh9VgnNZyOLvbcRhlTxyE5zb_OXlQ=w400-h600" alt="">
+                    </div>
+                    <div class="entry-hover">
+                        <p value='{{title}}'><span>Titolo: </span>{{title}}</p>
+                        <p class='original' value='{{original_title}}'><span>Titolo originale: </span>{{original_title}}</p>
+                        <p class='lingua' value='{{language}}'><span>Lingua originale: </span>{{{language}}}</p>
+                        <p><span>Tipologia:</span>{{tipo}}</p>
+                        <p class="voto" value='{{vote}}'><span>Voto medio: </span>{{{vote}}}</p>
+                        <p class="generi">{{lista_generi}}</p>
+                        <span> Cast: </span>
+                        <p class='cast'></p>
+                        <span class='overview'>Overview:</span>
+                        <p class='overview'>{{riassunto}}</p>
+                    </div>
+                </div>
+
+                <div class="entry">
+                    <div class="img-wrapper">
+                        <img class='copertina' src="https://play-lh.googleusercontent.com/9e6Q9eZqKy-aSyvsHMUCIHUK20YPhomucsxxPhrwaSzYH-Iiq7yvUXOwdw1cY8SHdT8=w400-h600" alt="">
+                    </div>
+                    <div class="entry-hover">
+                        <p value='{{title}}'><span>Titolo: </span>{{title}}</p>
+                        <p class='original' value='{{original_title}}'><span>Titolo originale: </span>{{original_title}}</p>
+                        <p class='lingua' value='{{language}}'><span>Lingua originale: </span>{{{language}}}</p>
+                        <p><span>Tipologia:</span>{{tipo}}</p>
+                        <p class="voto" value='{{vote}}'><span>Voto medio: </span>{{{vote}}}</p>
+                        <p class="generi">{{lista_generi}}</p>
+                        <span> Cast: </span>
+                        <p class='cast'></p>
+                        <span class='overview'>Overview:</span>
+                        <p class='overview'>{{riassunto}}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="film-home">
+
+                <div class="entry">
+                    <div class="img-wrapper">
+                        <img class='copertina' src="https://play-lh.googleusercontent.com/RWMin5ieP5SuyEgPScSS2D9q6lxJEMVGU02XTCUAfqwUz7xij-N6vuVTzFZRlP1gKoE9" alt="">
+                    </div>
+                    <div class="entry-hover">
+                        <p value='{{title}}'><span>Titolo: </span>{{title}}</p>
+                        <p class='original' value='{{original_title}}'><span>Titolo originale: </span>{{original_title}}</p>
+                        <p class='lingua' value='{{language}}'><span>Lingua originale: </span>{{{language}}}</p>
+                        <p><span>Tipologia:</span>{{tipo}}</p>
+                        <p class="voto" value='{{vote}}'><span>Voto medio: </span>{{{vote}}}</p>
+                        <p class="generi">{{lista_generi}}</p>
+                        <span> Cast: </span>
+                        <p class='cast'></p>
+                        <span class='overview'>Overview:</span>
+                        <p class='overview'>{{riassunto}}</p>
+                    </div>
+                </div>
+
+                <div class="entry">
+                    <div class="img-wrapper">
+                        <img class='copertina' src="https://play-lh.googleusercontent.com/iiz3nqXrqeMShg2BEOa5N25VhBCgrVUUTSimN0WRVuh9VgnNZyOLvbcRhlTxyE5zb_OXlQ=w400-h600" alt="">
+                    </div>
+                    <div class="entry-hover">
+                        <p value='{{title}}'><span>Titolo: </span>{{title}}</p>
+                        <p class='original' value='{{original_title}}'><span>Titolo originale: </span>{{original_title}}</p>
+                        <p class='lingua' value='{{language}}'><span>Lingua originale: </span>{{{language}}}</p>
+                        <p><span>Tipologia:</span>{{tipo}}</p>
+                        <p class="voto" value='{{vote}}'><span>Voto medio: </span>{{{vote}}}</p>
+                        <p class="generi">{{lista_generi}}</p>
+                        <span> Cast: </span>
+                        <p class='cast'></p>
+                        <span class='overview'>Overview:</span>
+                        <p class='overview'>{{riassunto}}</p>
+                    </div>
+                </div>
+
+                <div class="entry">
+                    <div class="img-wrapper">
+                        <img class='copertina' src="https://play-lh.googleusercontent.com/9e6Q9eZqKy-aSyvsHMUCIHUK20YPhomucsxxPhrwaSzYH-Iiq7yvUXOwdw1cY8SHdT8=w400-h600" alt="">
+                    </div>
+                    <div class="entry-hover">
+                        <p value='{{title}}'><span>Titolo: </span>{{title}}</p>
+                        <p class='original' value='{{original_title}}'><span>Titolo originale: </span>{{original_title}}</p>
+                        <p class='lingua' value='{{language}}'><span>Lingua originale: </span>{{{language}}}</p>
+                        <p><span>Tipologia:</span>{{tipo}}</p>
+                        <p class="voto" value='{{vote}}'><span>Voto medio: </span>{{{vote}}}</p>
+                        <p class="generi">{{lista_generi}}</p>
+                        <span> Cast: </span>
+                        <p class='cast'></p>
+                        <span class='overview'>Overview:</span>
+                        <p class='overview'>{{riassunto}}</p>
+                    </div>
+                </div>
             </div>
         </main>
         <!-- FINE MAIN -->
 
+        <script id="entry-template" type="text/x-handlebars-template">
+            <div class="entry" data-id='{{id}}' data-generi='{{stringa_generi}}'>
+                <div class="img-wrapper">
+                    <img class='copertina' src="{{immagine}}" alt="">
+                </div>
+                <div class="entry-hover">
+                    <p value='{{title}}'><span>Titolo: </span>{{title}}</p>
+                    <p class='original' value='{{original_title}}'><span>Titolo originale: </span>{{original_title}}</p>
+                    <p class='lingua' value='{{language}}'><span>Lingua originale: </span>{{{language}}}</p>
+                    <p><span>Tipologia:</span>{{tipo}}</p>
+                    <p class="voto" value='{{vote}}'><span>Voto medio: </span>{{{vote}}}</p>
+                    <p class="generi">{{lista_generi}}</p>
+                    <span> Cast: </span>
+                    <p class='cast'></p>
+                    <span class='overview'>Overview:</span>
+                    <p class='overview'>{{riassunto}}</p>
+                </div>
+            </div>
+        </script>
 
     </body>
 </html>

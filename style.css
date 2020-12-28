@@ -5,7 +5,9 @@
 }
 
 body {
-    /* background-color: #141414; */
+    height: 100%;
+    padding-top: 80px;
+    background-color: #141414;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -92,9 +94,106 @@ header {
 }
 
 .none {
-    /* display: none; */
+    display: none;
 }
 
 .active {
     display: block;
+}
+
+.film-home {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+.entry {
+    width: calc(12.5%);
+    background-color: black;
+    z-index: 10;
+    position: relative;
+    overflow-y: hidden;
+    padding: 2px;
+    height: fit-content;
+}
+
+.entry span {
+    color: grey;
+    font-size: 14px;
+}
+
+.entry p i {
+    color: yellow;
+}
+
+.form-control.active {
+    width: 200px;
+}
+
+.form-control:focus {
+    width: 200px;
+}
+
+.entry .overview, .original, .lingua, .cast, .entry-hover > span:first-of-type {
+    display: none;
+}
+.entry i {
+    padding: 0;
+}
+
+.entry-hover span, .entry-hover p {
+    width: 100%;
+}
+
+.copertina {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.entry-hover {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.entry:hover {
+    transform: scale(1.05);
+    transition: all 0.8s;
+    z-index: 11;
+}
+
+.entry:hover .copertina {
+    opacity: 0.2;
+    transition: opacity 1s;
+}
+
+.entry:hover .entry-hover {
+    opacity: 1;
+    transition: opacity 1s;
+}
+
+.entry-hover > span {
+    display: block;
+}
+
+.overview span {
+    display: block;
+}
+
+.entry p, .entry h4, .entry span, .entry i {
+    padding: 2px;
+}
+.entry p, .entry h4 {
+    font-size: 14px;
+}
+
+.entry span, .entry i {
+    font-size: 12px;
 }
