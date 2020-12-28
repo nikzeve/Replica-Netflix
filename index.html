@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
+
         <script src="https://kit.fontawesome.com/ce28035c26.js" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
-        <title>R-Netflix</title>
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <title>R-Netflix</title>
     </head>
     <body>
         <!-- -HEADER- -->
@@ -15,7 +17,7 @@
                     <img id="logo" src="https://fontmeme.com/permalink/201228/96b2acf184c3f7a75b3e1eaa443a54e8.png" alt="">
                 </div>
             </div>
-            <div id="header-right" class="">
+            <div id="header-right" class="clearfix">
                 <div id="search" class="clearfix">
                     <div id="search-icon" class="clearfix">
                         <i class="fas fa-search"></i>
@@ -24,13 +26,28 @@
                         <input type="text" id="search-movie" placeholder="Cerca">
                     </div>
                 </div>
+                <div id="return-box" class="none">
+                    <a id="return" href="#">Torna alla home</a>
+                </div>
             </div>
         </header>
         <!-- -FINE HEADER- -->
 
         <!-- MAIN -->
         <main>
+            <div class="no-results">
+                <h2>La ricerca non ha prodotto alcuni risulato..</h2>
+            </div>
 
+            <div class="film">
+                <Span class="type films">Film</Span>
+                <div class="film-wrapper"></div>
+            </div>
+
+            <div class="tv-shows">
+                <Span class='type shows'>Serie Tv</Span>
+                <div class="shows-wrapper"></div>
+            </div>
         </main>
         <!-- FINE MAIN -->
 
